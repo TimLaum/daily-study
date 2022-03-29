@@ -11,7 +11,7 @@ class Subject {
 
     display(el) {
         const a = document.createElement("a")
-        a.setAttribute("href", this.name + ".html")
+        a.setAttribute("href", `./subjects/${this.name.toUpperCase()}/`)
         a.className =  `matiere ${this.name}`
         a.setAttribute("target", "__blank")
         a.id = this.name
