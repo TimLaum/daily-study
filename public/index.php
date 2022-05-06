@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script defer src="./index.js"></script>
+    <script defer src="./main.js"></script>
     </head>
 
 
@@ -33,15 +33,14 @@
         <section id="main">
 
             <div class="menu">
-
-                    <div id="left">
-                    </div>
+                <div id="left">
+            </div>
                 
                 
             </div>
             <div id="right"></div>
         </section>
-        
+
     </body>
 
 </html>

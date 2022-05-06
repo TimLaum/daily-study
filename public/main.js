@@ -31,7 +31,7 @@ class Subject {
 }
 
 const m = [
-    "NSI", "Maths", "SVT", "Histoire", "Géographie","Français", "Anglais", "Allemand"
+    "NSI", "Maths", "SVT", "Histoire", "Géographie","Français","Latin", "Anglais", "Allemand"
 ]
 m.sort()
 

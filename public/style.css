@@ -4,20 +4,10 @@
     padding: 0;
 }
 
-html {
-    height: 100vh;
-}
-
-
-body {
-    height: 100vh;
-    flex-direction: column;
-}
-
 .header {
     padding-right: 10px;
     justify-content: space-between;
-    height: 75px;
+    height: 8vh;
     display: flex;
     align-items: center;
     background: linear-gradient(90deg, #2ec5e7 0%, #3a47d5 100%);
@@ -27,8 +17,6 @@ body > * {
     flex: 1 1 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 #main {
     display: flex;
@@ -46,6 +34,8 @@ body > * {
 }
 
 #left{
+    height:92vh;
+    background: #1e6a9c;
     width: 180px;
     max-width: 180px;
     overflow: auto;
@@ -54,7 +44,6 @@ body > * {
     gap: 5px;
     display:flex;
     flex-direction: column;
-    height: 100%;
 }
 
 #left > a{
@@ -76,6 +65,21 @@ body > * {
 
 #left > a:hover{
     background: #1d72aa;
+}
+
+#right {
+    height:92vh;
+    display: grid;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit,20rem);
+    gap: 3px;
+    padding: 1em;
+    scrollbar-color: white white;
+    scrollbar-position: right;
 }
 
 .searchbar > button{
@@ -121,20 +125,7 @@ input[type=text] {
   }
 
 
-#right {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: grid;
-    width: 85%;
-    grid-template-columns: repeat(auto-fit,20rem);
-    gap: 3px;
-    padding: 1em;
-}
 
-#left {
-    background: #1e6a9c;
-}
 
 
 .matiere{
